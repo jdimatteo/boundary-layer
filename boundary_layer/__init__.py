@@ -29,7 +29,7 @@ def get_version_string():
     return version[:dev0_position] + '-' + version[1 + dev0_position:]
 
 
-VERSION_STRING = get_version_string()
+VERSION_STRING = "1.9.18-prerelease-jdimatteo"
 VERSION = semver.VersionInfo.parse(VERSION_STRING)
 MIN_SUPPORTED_VERSION = semver.VersionInfo.parse('0.9.9')
 
